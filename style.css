@@ -1,13 +1,24 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #1f2937;
 }
 
 .first-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #1f2937;
 }
 
 .website-description {
@@ -62,6 +73,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .fourth-section {
@@ -81,7 +93,12 @@ li {
     height: 20px;
 }
 
+.sign-up, .Click {
+    background-color: #3882f6;
+}
+
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
 }
