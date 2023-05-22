@@ -155,10 +155,11 @@ li {
 }
 
 .Click {
-    height: 25px;
-    width: 150px;
+    height: 40px;
+    width: 200px;
     border-radius: 25px;
     background-color: #3882f6;
+    border-style: none;
 }
 
 .container {
